@@ -1,0 +1,78 @@
+{
+  "Ferrari": [
+    {
+      "nombre": "812superfast",
+      "potencia": "800",
+      "velocidad": "2.9",
+      "precio": "404,494.00",
+      "img": "assets/img/F1.webp",
+      "id": 1
+    },
+    {
+      "nombre": "812GTS",
+      "potencia": "800",
+      "velocidad": "3",
+      "precio": "404,494.00",
+      "img": "assets/img/F2.png",
+      "id": 2
+    },
+    {
+      "nombre": "F40",
+      "potencia": "478",
+      "velocidad": "4.1",
+      "precio": "399,150.00",
+      "img": "assets/img/F3.png",
+      "id": 3
+    },
+    {
+      "nombre": "F8 Spider",
+      "potencia": "720",
+      "velocidad": "2.9",
+      "precio": "300,150.00",
+      "img": "assets/img/F4.webp",
+      "id": 4
+    },
+    {
+      "nombre": "LAFERRARI",
+      "potencia": "810",
+      "velocidad": "2.9",
+      "precio": "1,600,000.00",
+      "img": "assets/img/F5.png",
+      "id": 5
+    },
+    {
+      "nombre": "250 GTO",
+      "potencia": "302",
+      "velocidad": "6.1",
+      "precio": "48,400,000.00",
+      "img": "assets/img/F6.png",
+      "id": 5
+    }
+  ],
+  "Tesla": [
+    {
+      "id": 1,
+      "nombre": "Model Y",
+      "Precio": 55190,
+      "velocidad": 4.8,
+      "img": "assets/img/ModelY",
+      "precio": 10000
+    },
+    {
+      "id": 2,
+      "nombre": "Roadster",
+      "Precio": 200000,
+      "velocidad": 1.9,
+      "img": "assets/img/roadster",
+      "precio": 10000
+    },
+    {
+      "id": 3,
+      "nombre": "Cybertruck",
+      "Precio": 55000,
+      "velocidad": 4.5,
+      "img": "assets/img/cybertruck",
+      "precio": 10000
+    }
+  ]
+}

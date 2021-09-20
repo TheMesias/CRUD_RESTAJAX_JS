@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>API REST AJAX</h1>
+    <div class="container">
+        <section class="crud">
+            <article>
+                <h2 class="crud-title">Add Ferrari</h2>
+                <form action="" class="crud-form">
+                    <div class="crud-form__container">
+                        <input type="text" name="nombre" placeholder="Name" required> 
+                        <input type="text" name="potencia" placeholder="CV" required> 
+                        <input type="text" name="speed" placeholder="0-100km" required> 
+                        <input type="text" name="precio" placeholder="Price" required> 
+                        <input type="submit" value="Send">
+                        <input type="hidden" name="img" placeholder="Imagen" required> 
+                        <input type="hidden" name="id">
+                    </div>
+                </form>
+            </article>
+            <article>
+                <h2 class="title-second">Watch Ferrari Cars</h2>
+                <div class="crud-cards">
+
+                </div>
+            </article>
+        </section>
+        <template id="crud-template">
+            <div class="card">
+                <h3 class="name"></h3>
+                <p class="img"></p>
+                <div class="infor-card">
+                    <p class="title-info">Characteristics</p>
+                    <p><span>Power:</span></p>
+                    <p class="power"></p>
+                    <p><span>Speed:</span></p>
+                    <p class="speed"></p>
+                    <p><span>Price:</span></p>
+                    <p class="price"></p>
+                    <div>
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+                
+            </div>
+        </template>
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>

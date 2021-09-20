@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*, 
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to top, #537895 0%, #1a4072 100%);
+    height: auto;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+h3{
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500; 
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*FORMULARIO*/
+
+.crud-title{
+    color: #fff;
+    font-family: 'Rock Salt', cursive;
+    margin: 15px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+
+
+.crud-form__container{
+    border: 2px solid #fff; 
+    background-image: linear-gradient(to top, #bae2e05d 0%, #d8d2e9 100%);
+    padding: .5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.crud-form input{
+    background: none;
+    color: #000;
+    padding: .2rem .3rem;
+    font-size: 1rem;
+    border: none; 
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+    outline: none;
+} 
+
+
+::placeholder{
+    color: #000;
+} 
+
+
+.crud-form input[type="submit"]{
+    border: 2px solid #537895; 
+    padding: .5rem .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: all .5s;
+    color: #000;
+
+}
+
+.crud-form input[type="submit"]:hover{
+    transition: all .5s;
+    background-color: #457294;
+}
+
+/*Cartas*/
+.crud-cards{
+    width: 100%;
+    margin: 20px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 300px));
+    justify-content: space-between;
+}
+
+
+
+.card{
+
+    height: auto;
+    background-image: linear-gradient(to top, #88d3ce 0%, #c2b0f3 100%);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, .25);
+    transition: transform .8s;
+    color: #000;
+}
+
+.card:hover{
+    transition: transform .2s;
+    transform: scale(1.05);
+  
+}
+
+.img:hover{
+    transition: transform .5s;
+    transform: scale(1.15);
+}
+
+.img{
+    display: block;
+    transition: transform .5s;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.infor-card{
+    width: 100%;
+    padding: 10px 30px;
+    
+}
+
+.title-info{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+   
+}
+
+.title-second{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 50px 0 10px 0;
+    text-transform: uppercase;
+    font-family: 'Rock Salt', cursive;
+    color: honeydew;
+    
+}
+
+.infor-card p {
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+.infor-card p:first-child {
+
+    font-weight: 500;
+}
+
+span{
+    font-weight: 500;
+    font-size: 1.2rem;
+  
+}
+
+.infor-card div {
+    margin: 10px;
+    text-align: center;
+}
+
+
+button{
+    margin-top: 10px;
+    padding: 8px 20px;
+    background: none;
+    border: none;
+    font-size: .8rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+button:first-child{
+    border: 2px solid #f3f709;
+    transition: all .5s;
+}
+
+button:first-child:hover{
+    transition: all .5s;
+    background-color: #f3f709;
+    font-size: .95rem;
+    font-weight: 400;
+    color: #000;
+}
+
+button:last-child{
+    border: 2px solid #db0c40;
+    transition: all .5s;
+}
+
+button:last-child:hover{
+    transition: all .5s;
+    background-color: #db0c40;
+    font-size: .95rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.power::after{
+    content: " CV";
+}
+
+.speed::after{
+    content: "s";
+}
+
+.price::after{
+    content: "$";
+}
+
+@media screen and (max-width: 1000px){
+    .crud-cards{
+        justify-content: space-around;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    .title-second{
+        font-size: 1.8rem;
+    }
+}
