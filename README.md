@@ -9,5 +9,5 @@ json-server -w assets/db.json
 ```
 
 ```
-open indexw.html
+open index2.html
 ```
